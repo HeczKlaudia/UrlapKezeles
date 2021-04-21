@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    flex: 0 0 15%;
+}
+
+article {
+    flex: 0 0 45%;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 0 0 35%;
+}
+
+div {
+    text-align: right;
+}
+
+label {
+    padding-right: 10px;
+}
+
+header, footer {
+    flex: 0 0 100%;
+}
+
+#kuld {
+    width: 180px;
+}

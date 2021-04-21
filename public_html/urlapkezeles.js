@@ -42,7 +42,7 @@ function validalas() {
     // legalább 1 karakter @ legalább 1 karakter.max 3 karakter
 
     if (!emailfilter.test(ID("mail").value)) {
-        hiba += "Legalább 1 karakter legyen!";
+        hiba += "Legalább 1 karakter legyen! <br> Legyen @ jel. <br> Tartalmazzon .-ot!";
         ID("mail").style.border = "3px solid red";
     } else {
         ID("mail").style.border = "none";
@@ -55,7 +55,7 @@ function validalas() {
     // legalább 1 karakter @ legalább 1 karakter.max 3 karakter
 
     if (!emailfilter2.test(ID("mail2").value)) {
-        hiba += "Legalább 1 karakter legyen!";
+        hiba += "Legalább 1 karakter legyen! <br> Legyen @ jel. <br> Tartalmazzon .-ot!";
         ID("mail2").style.border = "3px solid red";
     } else {
         ID("mail2").style.border = "none";
